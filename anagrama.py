@@ -27,3 +27,4 @@ class Anagrama():
 if __name__ == '__main__':
     anagrama = Anagrama()
     #anagrama.test_anagrama('The alias men', 'alan smithee')
+

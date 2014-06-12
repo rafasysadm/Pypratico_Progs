@@ -15,3 +15,4 @@ class AnagramaTest(unittest.TestCase):
          self.assertTrue(anagrama.test_anagrama('aaa', 'abc'))
          self.assertTrue(anagrama.test_anagrama('the Alias Men', 'alen smithee'))
 
+
