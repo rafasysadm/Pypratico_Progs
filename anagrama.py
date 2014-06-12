@@ -12,19 +12,26 @@ class Anagrama():
 
 
         if len(word1) != len(word2):
+           # print(word1)
+           # print(word2)
             return False
-
         else:
-
+           # print(word1)
+           # print(word2)
             if word1 == word2:
+              #  print("TRUE")
                 return True
-
             else:
+               # print("FALSE")
                 return False
 
 
 
 if __name__ == '__main__':
-    anagrama = Anagrama()
-    #anagrama.test_anagrama('The alias men', 'alan smithee')
+    anag = Anagrama()
+    anag.test_anagrama('The alias men', 'alan smithee')
+    #anag = None
+    #anag = Anagrama()
+
+    anag.test_anagrama('naa', 'abn')
 
