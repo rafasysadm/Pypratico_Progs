@@ -10,8 +10,8 @@ class AnagramaTest(unittest.TestCase):
 
     def test_anag(self):
        # anagramt = Anagrama()
-        self.assertTrue(anagram.test_anagrama('ana', 'naa'))
-        self.assertTrue(anagram.test_anagrama('aaa', 'aaa'))
+        self.assertTrue(anagram.test_anagrama('sapo', 'posa'))
+        self.assertTrue(anagram.test_anagrama('Iracema', 'America'))
         self.assertTrue(anagram.test_anagrama('the Alias Men', 'alan smithee'))
 
 
